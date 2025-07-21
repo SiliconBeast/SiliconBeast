@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=siliconbeast&label=Profile%20views&color=0e75b6&style=flat" alt="siliconbeast" /> </p>
 
-- 🔭 I’m currently working on **Data Analysis**
+- 🔭 I’m currently working on **Project Management**
 
 - 🌱 I’m currently learning **Python, C++, C, SQL**
 
