@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?font=Press+Start+2P&size=28&duration=3500&pause=1200&color=39C5CF&center=true&vCenter=true&width=600&height=70&lines=SUVIR" alt="Suvir" />
+<img src="https://readme-typing-svg.demolab.com/?font=Press+Start+2P&size=28&duration=3500&pause=1200&color=39C5CF&center=true&vCenter=true&width=600&height=70&lines=SUVIR" alt="Suvir Duggal" />
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=16&duration=3000&pause=800&color=C9D1D9&center=true&vCenter=true&width=560&height=30&lines=Computer+Engineering+Co-op+Junior+%40+UAlberta;Building+things+with+Python%2C+C%2B%2B%2C+C%2C+SQL" alt="Typing SVG" />
 
