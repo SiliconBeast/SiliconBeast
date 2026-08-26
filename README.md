@@ -1,66 +1,76 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6B8E4E,50:8FAE5B,100:F2CC0D&height=220&section=header&text=Suvir's%20Farm&fontSize=55&fontColor=FFF8E1&animation=fadeIn&fontAlignY=38&desc=Computer%20Engineering%20Co-op%20Junior%20%40UAlberta&descSize=20&descAlignY=58&descColor=FFF8E1" width="100%"/>
+<img src="https://readme-typing-svg.demolab.com/?font=Press+Start+2P&size=28&duration=3500&pause=1200&color=39C5CF&center=true&vCenter=true&width=600&height=70&lines=SUVIR" alt="Suvir" />
 
-<img src="https://readme-typing-svg.demolab.com/?font=Press+Start+2P&size=16&duration=3000&pause=1000&color=8FAE5B&center=true&vCenter=true&width=560&height=40&lines=Loading+farm...;Planting+code+seeds+%F0%9F%8C%B1;Harvesting+bugs+%F0%9F%90%9B;Welcome+to+my+profile+%F0%9F%9A%9C" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=16&duration=3000&pause=800&color=C9D1D9&center=true&vCenter=true&width=560&height=30&lines=Computer+Engineering+Co-op+Junior+%40+UAlberta;Building+things+with+Python%2C+C%2B%2B%2C+C%2C+SQL" alt="Typing SVG" />
 
-<img src="https://komarev.com/ghpvc/?username=siliconbeast&label=Profile%20views&color=8FAE5B&style=for-the-badge" alt="siliconbeast" />
-
-</div>
-
-&nbsp;
-
-## 🌾 About My Farm
-
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░🌻░░░░░░░░░🏡░░░░░░░░░░░░░░🌻░░░░░░░░░░░░░░░░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░🌽░░🌽░░🌽░░░░░░░░░░░░░░░░🐔░░░░░░░░░░░░░░░░░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
-
-- 🔭 Currently tending my crop of **Computer Networking**
-- 🌱 Growing new skills in **Python, C++, C, SQL**
-- 📫 Send a letter to the farm mailbox: **suvir1@ualberta.ca**
-- ⚡ Fun fact: **I love flight simulators** ✈️
-- 🤝 Connect via **email or LinkedIn**
-
-&nbsp;
-
-## 🧰 Tools in the Toolshed
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Arduino-6B8E4E?style=for-the-badge&logo=arduino&logoColor=FFF8E1" />
-<img src="https://img.shields.io/badge/Blender-F2CC0D?style=for-the-badge&logo=blender&logoColor=3E2723" />
-<img src="https://img.shields.io/badge/C-3E2723?style=for-the-badge&logo=c&logoColor=FFF8E1" />
-<img src="https://img.shields.io/badge/C%2B%2B-6B8E4E?style=for-the-badge&logo=cplusplus&logoColor=FFF8E1" />
 <br/>
-<img src="https://img.shields.io/badge/Git-F2CC0D?style=for-the-badge&logo=git&logoColor=3E2723" />
-<img src="https://img.shields.io/badge/JavaScript-8FAE5B?style=for-the-badge&logo=javascript&logoColor=3E2723" />
-<img src="https://img.shields.io/badge/MySQL-3E2723?style=for-the-badge&logo=mysql&logoColor=FFF8E1" />
-<img src="https://img.shields.io/badge/Python-6B8E4E?style=for-the-badge&logo=python&logoColor=FFF8E1" />
+
+<img src="https://komarev.com/ghpvc/?username=siliconbeast&label=PROFILE+VIEWS&color=0D1117&style=flat-square" alt="profile views"/>
+<img src="https://img.shields.io/badge/STATUS-ONLINE-0D1117?style=flat-square&labelColor=0D1117&color=39C5CF" alt="status"/>
 
 </div>
 
-&nbsp;
+<br/>
 
-## 📊 Crop Yield Stats
+## `// about`
+
+```
+> currently        Computer Networking
+> learning         Python · C++ · C · SQL
+> contact          suvir1@ualberta.ca
+> fun_fact         I love flight simulators
+```
+
+<br/>
+
+## `// stack`
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=siliconbeast&show_icons=true&hide_border=true&bg_color=3E2723&title_color=F2CC0D&text_color=FFF8E1&icon_color=8FAE5B&ring_color=8FAE5B" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=siliconbeast&hide_border=true&background=3E2723&ring=8FAE5B&fire=F2CC0D&currStreakLabel=FFF8E1&stroke=8FAE5B&sideLabels=FFF8E1&dates=FFF8E1&currStreakNum=F2CC0D&sideNums=F2CC0D" width="48%"/>
+<img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=39C5CF" />
+<img src="https://img.shields.io/badge/C%2B%2B-0D1117?style=flat-square&logo=cplusplus&logoColor=39C5CF" />
+<img src="https://img.shields.io/badge/C-0D1117?style=flat-square&logo=c&logoColor=39C5CF" />
+<img src="https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=39C5CF" />
+<img src="https://img.shields.io/badge/MySQL-0D1117?style=flat-square&logo=mysql&logoColor=39C5CF" />
+<img src="https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=39C5CF" />
+<img src="https://img.shields.io/badge/Arduino-0D1117?style=flat-square&logo=arduino&logoColor=39C5CF" />
+<img src="https://img.shields.io/badge/Blender-0D1117?style=flat-square&logo=blender&logoColor=39C5CF" />
 
 </div>
 
-&nbsp;
+<br/>
+
+## `// stats`
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F2CC0D,50:8FAE5B,100:6B8E4E&height=120&section=footer" width="100%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=siliconbeast&show_icons=true&hide_border=true&bg_color=0D1117&title_color=39C5CF&text_color=C9D1D9&icon_color=39C5CF" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=siliconbeast&layout=compact&hide_border=true&bg_color=0D1117&title_color=39C5CF&text_color=C9D1D9" width="35%"/>
 
-*Thanks for stopping by the farm — come back tomorrow, the crops will have grown!* 🌙
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=siliconbeast&hide_border=true&background=0D1117&ring=39C5CF&fire=39C5CF&currStreakLabel=39C5CF&stroke=0D1117&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" width="60%"/>
+
+</div>
+
+<br/>
+
+## `// pinned`
+
+<!-- Replace REPO-ONE / REPO-TWO below with your actual repo names -->
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=siliconbeast&repo=REPO-ONE&hide_border=true&bg_color=0D1117&title_color=39C5CF&text_color=C9D1D9&icon_color=39C5CF" width="45%"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=siliconbeast&repo=REPO-TWO&hide_border=true&bg_color=0D1117&title_color=39C5CF&text_color=C9D1D9&icon_color=39C5CF" width="45%"/>
+
+</div>
+
+<br/>
+
+## `// connect`
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/EMAIL-0D1117?style=flat-square&logo=gmail&logoColor=39C5CF" />
+<img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=flat-square&logo=linkedin&logoColor=39C5CF" />
 
 </div>
