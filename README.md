@@ -1,15 +1,14 @@
-
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com/?font=Press+Start+2P&size=26&duration=3500&pause=1200&color=39C5CF&center=true&vCenter=true&width=640&height=70&lines=PLAYER+1%3A+SUVIR+DUGGAL;PRESS+START+%E2%96%B6" alt="Player 1: Suvir Duggal" />
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=16&duration=3000&pause=800&color=C9D1D9&center=true&vCenter=true&width=620&height=30&lines=4th-year+Computer+Engineering+%40+UAlberta;FPGAs+%C2%B7+ASICs+%C2%B7+PCBs+%C2%B7+RF+%C2%B7+Embedded;Ex-TELUS+co-op+%E2%80%94+networking+%26+telemetry;Seeking+Summer+2027+silicon+internships" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=16&duration=3000&pause=800&color=C9D1D9&center=true&vCenter=true&width=640&height=30&lines=Computer+Engineering+Co-op+%40+UAlberta;RTL+%C2%B7+CPU+Architecture+%C2%B7+Embedded+%C2%B7+Distributed+Systems;Ex-TELUS+SWE+intern+%E2%80%94+telemetry+30+min+%E2%86%92+5+s;Seeking+Summer+2027+hardware+%2B+SWE+internships" alt="Typing SVG" />
 
 <br/>
 
 <img src="https://komarev.com/ghpvc/?username=siliconbeast&label=PLAYERS+VISITED&color=0D1117&style=flat-square" alt="profile views"/>
 <img src="https://img.shields.io/badge/STATUS-ONLINE-0D1117?style=flat-square&labelColor=0D1117&color=39C5CF" alt="status"/>
-<img src="https://img.shields.io/badge/OPEN_TO-SUMMER_2027-0D1117?style=flat-square&labelColor=0D1117&color=39C5CF" alt="open to work"/>
+<img src="https://img.shields.io/badge/OPEN_TO-HW_%2B_SWE_·_SUMMER_2027-0D1117?style=flat-square&labelColor=0D1117&color=39C5CF" alt="open to work"/>
 
 </div>
 
@@ -17,106 +16,90 @@
 
 ## `// character_sheet`
 
+<img align="right" src="assets/chip.svg" width="150" alt="pixel chip"/>
+
 ```
-╔══════════════════════════════════════════════════════════════╗
-║  NAME     Suvir Duggal                                       ║
-║  CLASS    Silicon Mage  (Hardware · Embedded · Digital)      ║
-║  LEVEL    4  ── Computer Engineering @ UAlberta              ║
-║  GUILD    ex-TELUS  ── networking, telemetry, API fuzzing    ║
-║  QUEST    land a Summer 2027 semiconductor/swe internship    ║
-║  SPAWN    Edmonton, AB (Open to Relocate for new Quest)      ║
-╠══════════════════════════════════════════════════════════════╣
-║  XP  [██████████████████████████████████░░░░░░] 85% → GRAD   ║
-╚══════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════╗
+║  NAME     Suvir Duggal                                   ║
+║  CLASS    Silicon Mage  (Hardware · Embedded · Software) ║
+║  LEVEL    4  ── Computer Engineering Co-op @ UAlberta    ║
+║  GUILD    ex-TELUS SWE intern  ── gRPC/gNMI telemetry    ║
+║  QUEST    Summer 2027 semiconductor / SWE internship     ║
+║  SPAWN    Edmonton, AB  ── open to relocate              ║
+╠══════════════════════════════════════════════════════════╣
+║  XP  [██████████████████████████████████░░░░░░] → 2028   ║
+╚══════════════════════════════════════════════════════════╝
 ```
+
+<br clear="right"/>
 
 ## `// stats`
 
+<img align="right" src="assets/scope.svg" width="190" alt="oscilloscope"/>
+
 ```
-DIGITAL / HDL      ██████████████████░░  VHDL · Verilog · FPGA · RISC-V
-PCB / RF           ████████████████░░░░  KiCad · Fusion Electronics · bias-tees
-EMBEDDED           █████████████████░░░  C · Arduino UNO Q · Raspberry Pi 5
-NETWORKING         ████████████████░░░░  gNMI · gRPC · telemetry · fuzzing
-SOFTWARE           ███████████████░░░░░  Python · C++ · Go · Kotlin · SQL
-ANALOG / SIM       ████████████░░░░░░░░  LTspice · MOSFET/CMOS modeling
+CPU ARCHITECTURE     ██████████████████░░  RV32I core
+RTL DESIGN           ██████████████████░░  Mandelbrot GPU
+EMBEDDED SYSTEMS     ███████████████████░  STM32 · Jetson
+DISTRIBUTED SYSTEMS  ████████████████░░░░  fleet telemetry
+CI/CD                ███████████████░░░░░  fleet deploys
+AUTOMATED TESTING    █████████████████░░░  6,500+ fuzz tests
 ```
+
+<br clear="right"/>
 
 ## `// skill_tree`
 
-<details>
-<summary><b>🔷 Digital Design</b> — unlocked</summary>
-<br/>
+```
+                           ◆ SUVIR.EXE ◆
+                ● unlocked     ──▶ unlock path
 
-<img src="https://img.shields.io/badge/VHDL-0D1117?style=flat-square&logoColor=39C5CF" />
-<img src="https://img.shields.io/badge/Verilog-0D1117?style=flat-square&logoColor=39C5CF" />
-<img src="https://img.shields.io/badge/RISC--V-0D1117?style=flat-square&logo=riscv&logoColor=39C5CF" />
-<img src="https://img.shields.io/badge/Vivado_·_Zybo_Z7-0D1117?style=flat-square&logo=amd&logoColor=39C5CF" />
-<img src="https://img.shields.io/badge/Tiny_Tapeout-0D1117?style=flat-square&logoColor=39C5CF" />
-
-</details>
-
-<details>
-<summary><b>📡 Hardware & RF</b> — unlocked</summary>
-<br/>
-
-<img src="https://img.shields.io/badge/KiCad-0D1117?style=flat-square&logo=kicad&logoColor=39C5CF" />
-<img src="https://img.shields.io/badge/Fusion_Electronics-0D1117?style=flat-square&logo=autodesk&logoColor=39C5CF" />
-<img src="https://img.shields.io/badge/LTspice-0D1117?style=flat-square&logoColor=39C5CF" />
-<img src="https://img.shields.io/badge/Blender-0D1117?style=flat-square&logo=blender&logoColor=39C5CF" />
-
-</details>
-
-<details>
-<summary><b>⚙️ Embedded</b> — unlocked</summary>
-<br/>
-
-<img src="https://img.shields.io/badge/C-0D1117?style=flat-square&logo=c&logoColor=39C5CF" />
-<img src="https://img.shields.io/badge/Arduino-0D1117?style=flat-square&logo=arduino&logoColor=39C5CF" />
-<img src="https://img.shields.io/badge/Raspberry_Pi-0D1117?style=flat-square&logo=raspberrypi&logoColor=39C5CF" />
-<img src="https://img.shields.io/badge/Linux-0D1117?style=flat-square&logo=linux&logoColor=39C5CF" />
-
-</details>
-
-<details>
-<summary><b>🌐 Networking & Software</b> — unlocked</summary>
-<br/>
-
-<img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=39C5CF" />
-<img src="https://img.shields.io/badge/C%2B%2B-0D1117?style=flat-square&logo=cplusplus&logoColor=39C5CF" />
-<img src="https://img.shields.io/badge/Go-0D1117?style=flat-square&logo=go&logoColor=39C5CF" />
-<img src="https://img.shields.io/badge/Kotlin-0D1117?style=flat-square&logo=kotlin&logoColor=39C5CF" />
-<img src="https://img.shields.io/badge/gRPC_·_gNMI-0D1117?style=flat-square&logoColor=39C5CF" />
-<img src="https://img.shields.io/badge/MySQL-0D1117?style=flat-square&logo=mysql&logoColor=39C5CF" />
-<img src="https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=39C5CF" />
-
-</details>
-
-<br/>
+├─◆ LANGUAGES
+│   ├─● C ──▶ ● C++ ──▶ ● CUDA
+│   ├─● VHDL ──▶ ● Verilog
+│   ├─● Python ──▶ ● Go ──▶ ● Java
+│   └─● SQL ──▶ ● MATLAB
+│
+├─◆ SOFTWARE
+│   ├─● Git ──▶ ● Docker ──▶ ● gRPC ──▶ ● REST APIs
+│   ├─● InfluxDB ──▶ ● Grafana
+│   ├─● GCP ──▶ ● AWS
+│   ├─● Agile ──▶ ● Jira ──▶ ● Confluence
+│   └─● Claude Code
+│
+└─◆ HARDWARE / EDA
+    ├─● KiCad ──▶ ● LTSpice ──▶ ● Cadence
+    ├─● Vivado ──▶ ● FPGA (Gowin · Xilinx)
+    └─● STM32 ──▶ ● Raspberry Pi ──▶ ● Nvidia Jetson
+```
 
 ## `// quest_log`
 
 | | Quest | What it is | Loot |
 |---|---|---|---|
-| 🟡 | **Tiny Tapeout ASIC** | Custom digital design taped out on a real shuttle | first silicon |
-| 🟡 | **Tang Nano 9K SoC** | RISC-V core + custom Mandelbrot GPU, HDMI out, audio | FPGA → ASIC path |
+| 🟡 | **RISC-V SoC + GPU** | RV32I in VHDL on a Tang Nano 9K, fixed-point Mandelbrot accelerator, HDMI + PWM audio | ASIC via Tiny Tapeout |
+| 🟡 | **RF Telemetry Board** | EcoCar RF PCB in KiCad + STM32 firmware streaming speed, battery, GPS | F1-style pit dashboard |
+| 🟡 | **Wingman** | Driver assist: Jetson TX2 CUDA perception + i.MX RT1170 safety MCU | CUDA Kalman tracker bank |
 | 🟡 | **BioTherma-AI** | Bio-digester monitor on Arduino UNO Q | Hackster contest entry |
-| 🟡 | **Wingman** | Embedded driving companion device | Embedded Design Contest |
-| 🟢 | **TELUS Co-op** | Real-time telemetry for edge network devices (Go, gNMI, gRPC) | UASU Innovation Award |
+| 🟢 | **TELUS Co-op** | Go gRPC/gNMI telemetry pipeline for an arm64 OpenWrt fleet | latency 30 min → 5 s |
+| 🟢 | **Research Assistant** | Fuzzy neural network in TensorFlow + scikit-learn | research poster |
 | 🟢 | **EyesPi** | Raspberry Pi 5 facial-recognition security system | CV + embedded |
-| 🟢 | **RF-Board-V1** | KiCad RF board with bias-tee design | RF layout XP |
 
 <sub>🟡 in progress · 🟢 complete — <!-- TODO: link each quest name to its repo --></sub>
 
 ## `// achievements`
 
+<img align="right" src="assets/trophy.svg" width="110" alt="pixel trophy"/>
+
 ```
-[🏆] Outstanding Innovation Award ......... UASU, 2026
-[🔬] Dean's Research Award ................ UAlberta research assistant
-[🎓] Teaching Assistant ................... ENGG 100
-[🧑‍🏫] Instructor ........................... Bridge2Engg
-[📚] Tutor ................................ Students' Union
-[🔒] First Silicon ........................ LOCKED — awaiting Tiny Tapeout chips
+[🏆] Outstanding Innovation Award ...... UASU, 2026
+[🔬] Dean's Research Award ............. UAlberta research
+[🎓] Teaching Assistant ................ Faculty of Engineering
+[🧑‍🏫] Instructor ........................ Bridge2Engg
+[🔒] First Silicon ..................... LOCKED — chips pending
 ```
+
+<br clear="right"/>
 
 ## `// battle_record`
 
@@ -136,16 +119,22 @@ ANALOG / SIM       ████████████░░░░░░░░ 
 
 ## `// side_quests`
 
+<img align="right" src="assets/plane.svg" width="200" alt="pixel plane"/>
+
 ```
-> flight simulators   ✈  logged hours in the cockpit when not in Vivado
+> flight simulators  ✈  logging cockpit hours
+                        when not in Vivado
 ```
+
+<br clear="right"/>
 
 ## `// multiplayer`
 
 <div align="center">
 
 <a href="mailto:suvir1@ualberta.ca"><img src="https://img.shields.io/badge/EMAIL-0D1117?style=flat-square&logo=gmail&logoColor=39C5CF" /></a>
-<a href="https://www.linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=flat-square&logo=linkedin&logoColor=39C5CF" /></a>
+<a href="https://www.linkedin.com/in/suvirduggal"><img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=flat-square&logo=linkedin&logoColor=39C5CF" /></a>
+<a href="https://suvir.framer.website"><img src="https://img.shields.io/badge/PORTFOLIO-0D1117?style=flat-square&logo=framer&logoColor=39C5CF" /></a>
 
 <sub>`> INSERT COIN TO CONTINUE`</sub>
 
