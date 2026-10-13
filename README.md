@@ -1,14 +1,13 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?font=Press+Start+2P&size=26&duration=3500&pause=1200&color=39C5CF&center=true&vCenter=true&width=640&height=70&lines=PLAYER+1%3A+SUVIR+DUGGAL;PRESS+START+%E2%96%B6" alt="Player 1: Suvir Duggal" />
+<h1>Suvir Duggal</h1>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=16&duration=3000&pause=800&color=C9D1D9&center=true&vCenter=true&width=640&height=30&lines=Computer+Engineering+Co-op+%40+UAlberta;RTL+%C2%B7+CPU+Architecture+%C2%B7+Embedded+%C2%B7+Distributed+Systems;Ex-TELUS+SWE+intern+%E2%80%94+telemetry+30+min+%E2%86%92+5+s;Seeking+Summer+2027+hardware+%2B+SWE+internships" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=16&duration=3000&pause=800&color=C9D1D9&center=true&vCenter=true&width=640&height=30&lines=Computer+Engineering+Co-op+%40+UAlberta;RTL+%C2%B7+CPU+Architecture+%C2%B7+Embedded+%C2%B7+Distributed+Systems;Ex-TELUS+SWE+intern+%E2%80%94+telemetry+30+min+%E2%86%92+5+s;Seeking+Summer+2027+HW%2FSWE+internships" alt="Typing SVG" />
 
 <br/>
 
 <img src="https://komarev.com/ghpvc/?username=siliconbeast&label=PLAYERS+VISITED&color=0D1117&style=flat-square" alt="profile views"/>
-<img src="https://img.shields.io/badge/STATUS-ONLINE-0D1117?style=flat-square&labelColor=0D1117&color=39C5CF" alt="status"/>
-<img src="https://img.shields.io/badge/OPEN_TO-HW_%2B_SWE_·_SUMMER_2027-0D1117?style=flat-square&labelColor=0D1117&color=39C5CF" alt="open to work"/>
+<img src="https://img.shields.io/badge/OPEN_TO-HW%2FSWE_·_SUMMER_2027-0D1117?style=flat-square&labelColor=0D1117&color=39C5CF" alt="open to work"/>
 
 </div>
 
@@ -24,7 +23,7 @@
 ║  CLASS    Silicon Mage  (Hardware · Embedded · Software) ║
 ║  LEVEL    4  ── Computer Engineering Co-op @ UAlberta    ║
 ║  GUILD    ex-TELUS SWE intern  ── gRPC/gNMI telemetry    ║
-║  QUEST    Summer 2027 semiconductor / SWE internship     ║
+║  QUEST    Summer 2027 HW/SWE internship                  ║
 ║  SPAWN    Edmonton, AB  ── open to relocate              ║
 ╠══════════════════════════════════════════════════════════╣
 ║  XP  [██████████████████████████████████░░░░░░] → 2028   ║
@@ -123,8 +122,11 @@ AUTOMATED TESTING    █████████████████░░�
 <img align="right" src="plane.svg" width="200" alt="pixel plane"/>
 
 ```
-> flight simulators  ✈  logging cockpit hours
-                        when not in Vivado
+> flight simulators  ✈️  logging cockpit hours when not in Vivado
+> thrillers          📖  plot twists > merge conflicts — can't put
+                         one down until the killer's revealed
+> sitcoms            📺  background noise for long debug sessions
+                         and the reset button after a failed build
 ```
 
 <br clear="right"/>
