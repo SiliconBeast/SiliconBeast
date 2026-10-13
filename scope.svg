@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 130" width="200" height="130">
+  <style>
+    .w{animation:scroll 1.6s linear infinite}
+    .w2{animation:scroll 3.2s linear infinite}
+    .trig{animation:blink 1s steps(1) infinite}
+    @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-40px)}}
+    @keyframes blink{0%{opacity:1}50%{opacity:.15}}
+  </style>
+  <defs><clipPath id="s"><rect x="10" y="10" width="180" height="96"/></clipPath></defs>
+  <rect x="2" y="2" width="196" height="126" rx="6" fill="#161B22" stroke="#30363D" stroke-width="2"/>
+  <rect x="10" y="10" width="180" height="96" fill="#0D1117"/>
+  <g stroke="#21262D" stroke-width="1">
+    <path d="M46 10V106M82 10V106M118 10V106M154 10V106M10 34H190M10 58H190M10 82H190"/>
+  </g>
+  <g clip-path="url(#s)" fill="none" stroke-width="2" stroke-linejoin="miter">
+    <path class="w" stroke="#39C5CF" d="M10 50H30V22H50V50H70V22H90V50H110V22H130V50H150V22H170V50H190V22H210V50H230V22H250"/>
+    <path class="w2" stroke="#C9D1D9" d="M10 96H50V72H90V96H130V72H170V96H210V72H250V96H290" opacity=".8"/>
+  </g>
+  <text x="14" y="120" fill="#39C5CF" font-family="monospace" font-size="9">CH1 CLK</text>
+  <text x="70" y="120" fill="#C9D1D9" font-family="monospace" font-size="9">CH2 DATA</text>
+  <circle class="trig" cx="184" cy="117" r="4" fill="#39C5CF"/>
+</svg>
