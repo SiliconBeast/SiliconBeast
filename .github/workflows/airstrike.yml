@@ -1,0 +1,160 @@
+# Save as .github/workflows/airstrike.yml in SiliconBeast/SiliconBeast
+name: airstrike-contribution-graph
+
+on:
+  schedule:
+    - cron: "17 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Draw airstrike.svg from contribution graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: |
+          python3 - <<'PY'
+          """Airstrike: a pixel airplane strafes your GitHub contribution graph.
+          Writes dist/airstrike.svg. Needs GITHUB_TOKEN and GH_USER env vars
+          (or AIRSTRIKE_FAKE=1 for a local preview with random data)."""
+          import json, os, random, urllib.request
+
+          USER = os.environ.get("GH_USER", "SiliconBeast")
+          T = 18.0                      # seconds per sortie
+          CELL, GAP = 10, 3
+          STEP = CELL + GAP
+          X0, Y0 = 30, 40               # grid origin
+          PLANE_Y = Y0 + 7 * STEP + 26  # plane lane (top of sprite)
+          SPEED = 420.0                 # bullet px/s
+          LEVELS = {"NONE": 0, "FIRST_QUARTILE": 1, "SECOND_QUARTILE": 2,
+                    "THIRD_QUARTILE": 3, "FOURTH_QUARTILE": 4}
+          COLORS = {0: "#161B22", 1: "#0E4F55", 2: "#1A8A93", 3: "#39C5CF", 4: "#9FF4FA"}
+
+
+          def fetch():
+              if os.environ.get("AIRSTRIKE_FAKE"):
+                  random.seed(7)
+                  weeks = [[random.choice([0, 0, 1, 1, 2, 3, 4]) for _ in range(7)] for _ in range(53)]
+                  return weeks, sum(l * 3 for w in weeks for l in w)
+              q = """query($u:String!){user(login:$u){contributionsCollection{contributionCalendar{
+                totalContributions weeks{contributionDays{weekday contributionLevel}}}}}}"""
+              req = urllib.request.Request(
+                  "https://api.github.com/graphql",
+                  data=json.dumps({"query": q, "variables": {"u": USER}}).encode(),
+                  headers={"Authorization": f"bearer {os.environ['GITHUB_TOKEN']}",
+                           "Content-Type": "application/json"})
+              cal = json.load(urllib.request.urlopen(req))["data"]["user"][
+                  "contributionsCollection"]["contributionCalendar"]
+              weeks = []
+              for w in cal["weeks"]:
+                  col = [0] * 7
+                  for d in w["contributionDays"]:
+                      col[d["weekday"]] = LEVELS[d["contributionLevel"]]
+                  weeks.append(col)
+              return weeks, cal["totalContributions"]
+
+
+          def build(weeks, total):
+              n = len(weeks)
+              W = X0 * 2 + n * STEP - GAP
+              H = PLANE_Y + 40
+              span = W + 80                       # plane flies from -40 to W+40
+              under = lambda xc: T * (xc + 40) / span
+
+              css = [f"""
+          .c{{transform-box:fill-box;transform-origin:center}}
+          .fly{{animation:fly {T}s linear infinite}}
+          .wing{{animation:fly {T}s linear infinite;animation-delay:-{T*0.965:.2f}s}}
+          .flame{{animation:flk .12s steps(1) infinite}}
+          .b{{opacity:0;animation:shot {T}s linear infinite}}
+          @keyframes fly{{from{{transform:translateX(-40px)}}to{{transform:translateX({W+40}px)}}}}
+          @keyframes flk{{50%{{opacity:.2}}}}
+          .hud{{font:bold 11px monospace;fill:#C9D1D9}}
+          .blink{{animation:flk 1s steps(1) infinite}}
+          """]
+              travel = (PLANE_Y - Y0 + 10) / SPEED
+              p = travel / T * 100
+              css.append(f"@keyframes shot{{0%{{opacity:1;transform:translateY(0)}}"
+                         f"{p:.3f}%{{opacity:1;transform:translateY(-{PLANE_Y - Y0 + 10}px)}}"
+                         f"{p+0.01:.3f}%,100%{{opacity:0}}}}")
+              for lv in range(1, 5):
+                  css.append(
+                      f".l{lv}{{animation:boom{lv} {T}s linear infinite}}"
+                      f"@keyframes boom{lv}{{0%{{fill:#FFFFFF;transform:scale(1.3)}}"
+                      f"1.2%{{fill:#FFA657;transform:scale(1.5)}}2.4%{{fill:#F85149;opacity:1}}"
+                      f"4%{{opacity:0;transform:scale(.2)}}86%{{opacity:0;transform:scale(.2)}}"
+                      f"90%,100%{{opacity:1;fill:{COLORS[lv]};transform:scale(1)}}}}")
+
+              body = []
+              bullets = []
+              for c, col in enumerate(weeks):
+                  x = X0 + c * STEP
+                  xc = x + CELL / 2
+                  t_fire = under(xc)
+                  fired = False
+                  for r, lv in enumerate(col):
+                      y = Y0 + r * STEP
+                      if lv == 0:
+                          body.append(f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="2" fill="{COLORS[0]}"/>')
+                          continue
+                      fired = True
+                      hit = t_fire + (PLANE_Y - y - CELL) / SPEED
+                      body.append(f'<rect class="c l{lv}" x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="2" '
+                                  f'fill="{COLORS[lv]}" style="animation-delay:{hit:.3f}s"/>')
+                  if fired:
+                      bullets.append(f'<rect class="b" x="{xc-1.5:.1f}" y="{PLANE_Y-8}" width="3" height="8" '
+                                     f'fill="#FFE66D" style="animation-delay:{t_fire:.3f}s"/>')
+
+              # pixel airplane, nose up, centred on x=0 (2px pixels)
+              def plane(cls, scale, body_c, wing_c, dy=0):
+                  px = [
+                      (0, 0, 1, 2, "#FFFFFF"),          # nose
+                      (-1, 2, 3, 6, body_c),            # fuselage
+                      (-7, 4, 15, 2, wing_c),           # main wing
+                      (-5, 6, 11, 1, wing_c),
+                      (0, 3, 1, 2, "#0D1117"),          # cockpit
+                      (-3, 9, 7, 1, wing_c),            # tail plane
+                      (-1, 8, 3, 2, body_c),
+                  ]
+                  rects = "".join(
+                      f'<rect x="{dx*2*scale-1*scale:.1f}" y="{dy*2*scale:.1f}" width="{w*2*scale:.1f}" '
+                      f'height="{h*2*scale:.1f}" fill="{col}"/>' for dx, dy, w, h, col in px)
+                  flame = (f'<rect class="flame" x="{-1*scale:.1f}" y="{20*scale:.1f}" width="{2*scale:.1f}" '
+                           f'height="{4*scale:.1f}" fill="#FFA657"/>')
+                  return f'<g class="{cls}"><g transform="translate(0 {PLANE_Y + dy})">{rects}{flame}</g></g>'
+
+              hud = (f'<text class="hud" x="{X0}" y="22"><tspan fill="#F85149">1UP</tspan>  '
+                     f'{total:06d}</text>'
+                     f'<text class="hud" x="{W/2:.0f}" y="22" text-anchor="middle">AIRSTRIKE · '
+                     f'<tspan fill="#39C5CF">{USER.upper()}</tspan></text>'
+                     f'<text class="hud blink" x="{W-X0}" y="22" text-anchor="end" fill="#FFE66D">'
+                     f'STAGE {len(weeks)}</text>')
+              svg = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" '
+                     f'shape-rendering="crispEdges"><style>{"".join(css)}</style>'
+                     f'<rect width="{W}" height="{H}" rx="8" fill="#0D1117"/>{hud}'
+                     f'{"".join(body)}{"".join(bullets)}'
+                     f'{plane("wing", 0.7, "#D2A8FF", "#8957E5", 8)}'
+                     f'{plane("fly", 1, "#39C5CF", "#1F6F75")}</svg>')
+              return svg
+
+
+          if __name__ == "__main__":
+              weeks, total = fetch()
+              os.makedirs("dist", exist_ok=True)
+              with open("dist/airstrike.svg", "w") as f:
+                  f.write(build(weeks, total))
+              print(f"wrote dist/airstrike.svg ({len(weeks)} weeks, {total} contributions)")
+          PY
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
