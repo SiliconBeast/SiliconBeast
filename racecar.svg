@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 60" width="800" height="60" shape-rendering="crispEdges">
+  <style>
+    .car{animation:drive 5s linear infinite}
+    .hub{animation:spin .16s steps(1) infinite}
+    .puff{animation:puff .5s steps(1) infinite}.p2{animation-delay:.25s}
+    .lane{animation:lane .6s linear infinite}
+    @keyframes drive{from{transform:translateX(-90px)}to{transform:translateX(880px)}}
+    @keyframes spin{50%{fill:#F0F6FC}}
+    @keyframes puff{50%{opacity:0}}
+    @keyframes lane{from{transform:translateX(0)}to{transform:translateX(-40px)}}
+  </style>
+  <rect x="0" y="48" width="800" height="12" fill="#161B22"/>
+  <g class="lane" fill="#30363D"><path d="M0 53h20v2H0zM40 53h20v2H40zM80 53h20v2H80zM120 53h20v2h-20zM160 53h20v2h-20zM200 53h20v2h-20zM240 53h20v2h-20zM280 53h20v2h-20zM320 53h20v2h-20zM360 53h20v2h-20zM400 53h20v2h-20zM440 53h20v2h-20zM480 53h20v2h-20zM520 53h20v2h-20zM560 53h20v2h-20zM600 53h20v2h-20zM640 53h20v2h-20zM680 53h20v2h-20zM720 53h20v2h-20zM760 53h20v2h-20zM800 53h20v2h-20z"/></g>
+  <!-- finish flag -->
+  <g transform="translate(760 6)">
+    <rect x="0" y="0" width="3" height="42" fill="#8B949E"/>
+    <rect x="3" y="0" width="6" height="6" fill="#F0F6FC"/><rect x="9" y="0" width="6" height="6" fill="#0D1117"/><rect x="15" y="0" width="6" height="6" fill="#F0F6FC"/>
+    <rect x="3" y="6" width="6" height="6" fill="#0D1117"/><rect x="9" y="6" width="6" height="6" fill="#F0F6FC"/><rect x="15" y="6" width="6" height="6" fill="#0D1117"/>
+    <rect x="3" y="12" width="6" height="6" fill="#F0F6FC"/><rect x="9" y="12" width="6" height="6" fill="#0D1117"/><rect x="15" y="12" width="6" height="6" fill="#F0F6FC"/>
+  </g>
+  <g class="car"><g transform="translate(0 5) scale(1.5)">
+    <rect class="puff" x="-14" y="10" width="6" height="6" fill="#8B949E" opacity=".6"/>
+    <rect class="puff p2" x="-24" y="6" width="8" height="8" fill="#6E7681" opacity=".4"/>
+    <rect x="0" y="0" width="12" height="4" fill="#FFE66D"/>
+    <rect x="0" y="4" width="6" height="8" fill="#A371F7"/>
+    <rect x="4" y="10" width="56" height="10" fill="#DB61A2"/>
+    <rect x="22" y="4" width="20" height="6" fill="#DB61A2"/>
+    <rect x="28" y="-2" width="10" height="6" fill="#FFE66D"/>
+    <rect x="34" y="0" width="4" height="2" fill="#0D1117"/>
+    <rect x="42" y="6" width="6" height="4" fill="#79C0FF"/>
+    <rect x="60" y="13" width="8" height="7" fill="#A371F7"/>
+    <rect x="8" y="13" width="30" height="2" fill="#FFE66D"/>
+    <rect x="40" y="11" width="14" height="8" fill="#F0F6FC"/>
+    <text x="47" y="18" fill="#0D1117" font-family="monospace" font-weight="bold" font-size="7" text-anchor="middle">28</text>
+    <rect x="8" y="18" width="12" height="10" fill="#484F58"/>
+    <rect x="44" y="18" width="12" height="10" fill="#484F58"/>
+    <rect class="hub" x="12" y="21" width="4" height="4" fill="#6E7681"/>
+    <rect class="hub" x="48" y="21" width="4" height="4" fill="#6E7681"/>
+  </g></g>
+</svg>
