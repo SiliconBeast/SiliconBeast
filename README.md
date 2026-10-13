@@ -52,7 +52,7 @@ AUTOMATED TESTING    █████████████████░░�
 <img align="right" src="robot.svg" width="130" alt="pixel robot co-pilot"/>
 
 ```
-                           ◆ SUVIR.EXE ◆
+                           ◆ journey.EXE ◆
                 ● unlocked     ──▶ unlock path
 
 ├─◆ LANGUAGES
@@ -142,7 +142,8 @@ AUTOMATED TESTING    █████████████████░░�
 <a href="https://www.linkedin.com/in/suvirduggal"><img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=flat-square&logo=linkedin&logoColor=39C5CF" /></a>
 <a href="https://suvir.framer.website"><img src="https://img.shields.io/badge/PORTFOLIO-0D1117?style=flat-square&logo=framer&logoColor=39C5CF" /></a>
 
-<sub>`"did you know: ai won't replace you but someone using ai with brains surely will lol" ~my previous VP btw`</sub>
+<sub>`"the journey is the reward" ~yours truly ;)`</sub>
+
 
 </div>
 
