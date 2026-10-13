@@ -50,6 +50,8 @@ AUTOMATED TESTING    █████████████████░░�
 
 ## `// skill_tree`
 
+<img align="right" src="robot.svg" width="130" alt="pixel robot co-pilot"/>
+
 ```
                            ◆ SUVIR.EXE ◆
                 ● unlocked     ──▶ unlock path
@@ -72,6 +74,8 @@ AUTOMATED TESTING    █████████████████░░�
     ├─● Vivado ──▶ ● FPGA (Gowin · Xilinx)
     └─● STM32 ──▶ ● Raspberry Pi ──▶ ● Nvidia Jetson
 ```
+
+<br clear="right"/>
 
 ## `// quest_log`
 
@@ -110,10 +114,7 @@ AUTOMATED TESTING    █████████████████░░�
 
 <br/><br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/siliconbeast/siliconbeast/output/pacman-contribution-graph-dark.svg">
-  <img alt="pac-man eating contributions" src="https://raw.githubusercontent.com/siliconbeast/siliconbeast/output/pacman-contribution-graph.svg">
-</picture>
+<img src="https://raw.githubusercontent.com/SiliconBeast/SiliconBeast/output/airstrike.svg" width="100%" alt="pixel airplane strafing my contribution graph"/>
 
 </div>
 
@@ -128,7 +129,11 @@ AUTOMATED TESTING    █████████████████░░�
 
 <br clear="right"/>
 
+<img src="racecar.svg" width="100%" alt="pixel race car"/>
+
 ## `// multiplayer`
+
+<img align="right" src="devboard.svg" width="140" alt="pixel dev board"/>
 
 <div align="center">
 
@@ -139,3 +144,5 @@ AUTOMATED TESTING    █████████████████░░�
 <sub>`> INSERT COIN TO CONTINUE`</sub>
 
 </div>
+
+<br clear="right"/>
