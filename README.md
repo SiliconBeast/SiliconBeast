@@ -16,7 +16,7 @@
 
 ## `// character_sheet`
 
-<img align="right" src="assets/chip.svg" width="150" alt="pixel chip"/>
+<img align="right" src="chip.svg" width="150" alt="pixel chip"/>
 
 ```
 ╔══════════════════════════════════════════════════════════╗
@@ -35,7 +35,7 @@
 
 ## `// stats`
 
-<img align="right" src="assets/scope.svg" width="190" alt="oscilloscope"/>
+<img align="right" src="scope.svg" width="190" alt="oscilloscope"/>
 
 ```
 CPU ARCHITECTURE     ██████████████████░░  RV32I core
@@ -89,7 +89,7 @@ AUTOMATED TESTING    █████████████████░░�
 
 ## `// achievements`
 
-<img align="right" src="assets/trophy.svg" width="110" alt="pixel trophy"/>
+<img align="right" src="trophy.svg" width="110" alt="pixel trophy"/>
 
 ```
 [🏆] Outstanding Innovation Award ...... UASU, 2026
@@ -119,7 +119,7 @@ AUTOMATED TESTING    █████████████████░░�
 
 ## `// side_quests`
 
-<img align="right" src="assets/plane.svg" width="200" alt="pixel plane"/>
+<img align="right" src="plane.svg" width="200" alt="pixel plane"/>
 
 ```
 > flight simulators  ✈  logging cockpit hours
