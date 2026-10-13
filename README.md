@@ -17,7 +17,7 @@
 
 ```
 > currently        Computer Networking
-> learning         Python · C++ · C · SQL
+> learning         Python · C++ · C · VHDL · Verilog · Kotlin
 > contact          suvir1@ualberta.ca
 > fun_fact         I love flight simulators
 ```
@@ -31,7 +31,7 @@
 <img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=39C5CF" />
 <img src="https://img.shields.io/badge/C%2B%2B-0D1117?style=flat-square&logo=cplusplus&logoColor=39C5CF" />
 <img src="https://img.shields.io/badge/C-0D1117?style=flat-square&logo=c&logoColor=39C5CF" />
-<img src="https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=39C5CF" />
+<!-- <img src="https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=39C5CF" /> -->
 <img src="https://img.shields.io/badge/MySQL-0D1117?style=flat-square&logo=mysql&logoColor=39C5CF" />
 <img src="https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=39C5CF" />
 <img src="https://img.shields.io/badge/Arduino-0D1117?style=flat-square&logo=arduino&logoColor=39C5CF" />
