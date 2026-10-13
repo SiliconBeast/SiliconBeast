@@ -95,11 +95,10 @@ AUTOMATED TESTING    █████████████████░░�
 <img align="right" src="trophy.svg" width="110" alt="pixel trophy"/>
 
 ```
-[🏆] Outstanding Innovation Award ...... UASU, 2026
-[🔬] Dean's Research Award ............. UAlberta research
-[🎓] Teaching Assistant ................ Faculty of Engineering
+[🔬] Dean's Research Award ............. UAlberta research (genuinely awesome learning experience)
+[🎓] Teaching Assistant ................ Faculty of Engineering (juniors love my guidance and funny emails before midterms)
 [🧑‍🏫] Instructor ........................ Bridge2Engg
-[🔒] First Silicon ..................... LOCKED — chips pending
+[🔒] First Silicon ..................... LOCKED — ASIC pending (its taking all my energy icl lol)
 ```
 
 <br clear="right"/>
@@ -124,9 +123,9 @@ AUTOMATED TESTING    █████████████████░░�
 ```
 > flight simulators  ✈️  logging cockpit hours when not in Vivado
 > thrillers          📖  plot twists > merge conflicts — can't put
-                         one down until the killer's revealed
+                         one down until the suspect's revealed
 > sitcoms            📺  background noise for long debug sessions
-                         and the reset button after a failed build
+                         and the reset button after a failed build or 6 courses + 5 long labs
 ```
 
 <br clear="right"/>
