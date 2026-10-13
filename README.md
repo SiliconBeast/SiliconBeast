@@ -23,8 +23,8 @@
 ║  CLASS    Silicon Mage  (Hardware · Embedded · Digital)      ║
 ║  LEVEL    4  ── Computer Engineering @ UAlberta              ║
 ║  GUILD    ex-TELUS  ── networking, telemetry, API fuzzing    ║
-║  QUEST    land a Summer 2027 semiconductor internship        ║
-║  SPAWN    Edmonton, AB                                       ║
+║  QUEST    land a Summer 2027 semiconductor/swe internship    ║
+║  SPAWN    Edmonton, AB (Open to Relocate for new Quest)      ║
 ╠══════════════════════════════════════════════════════════════╣
 ║  XP  [██████████████████████████████████░░░░░░] 85% → GRAD   ║
 ╚══════════════════════════════════════════════════════════════╝
