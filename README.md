@@ -103,34 +103,7 @@ AUTOMATED TESTING    █████████████████░░�
 
 <br clear="right"/>
 
-## `// battle_record`
 
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=siliconbeast&show_icons=true&hide_border=true&bg_color=0D1117&title_color=39C5CF&icon_color=39C5CF&text_color=C9D1D9&rank_icon=github" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=siliconbeast&layout=compact&hide_border=true&bg_color=0D1117&title_color=39C5CF&text_color=C9D1D9" />
-
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/SiliconBeast/SiliconBeast/output/airstrike.svg" width="100%" alt="pixel airplane strafing my contribution graph"/>
-
-</div>
-
-## `// side_quests`
-
-<img align="right" src="plane.svg" width="200" alt="pixel plane"/>
-
-```
-> flight simulators  ✈️  logging cockpit hours when not in Vivado
-> thrillers          📖  plot twists > merge conflicts — can't put
-                         one down until the suspect's revealed
-> sitcoms            📺  background noise for long debug sessions
-                         and the reset button after a failed build or 6 courses + 5 long labs
-```
-
-<br clear="right"/>
-
-<img src="racecar.svg" width="100%" alt="pixel race car"/>
 
 ## `// multiplayer`
 
