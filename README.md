@@ -22,7 +22,7 @@
 ║  NAME     Suvir Duggal                                   ║
 ║  CLASS    Silicon Mage  (Hardware · Embedded · Software) ║
 ║  LEVEL    4  ── Computer Engineering Co-op @ UAlberta    ║
-║  GUILD    ex-TELUS SWE intern  ── gRPC/gNMI telemetry    ║
+║  GUILD    ex-TELUS SWE intern  ── gRPC telemetry         ║
 ║  QUEST    Summer 2027 HW/SWE internship                  ║
 ║  SPAWN    Edmonton, AB  ── open to relocate              ║
 ╠══════════════════════════════════════════════════════════╣
@@ -97,7 +97,7 @@ AUTOMATED TESTING    █████████████████░░�
 ```
 [🔬] Dean's Research Award ............. UAlberta research (genuinely awesome learning experience)
 [🎓] Teaching Assistant ................ Faculty of Engineering (juniors love my guidance and funny emails before midterms)
-[🧑‍🏫] Instructor ........................ Bridge2Engg
+[🧑‍🏫] Recent W ........................ Students' Union Award for Outstanding Innovation
 [🔒] First Silicon ..................... LOCKED — ASIC pending (its taking all my energy icl lol)
 ```
 
