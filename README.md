@@ -1,123 +1,50 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" width="100%" alt="Suvir Duggal: Computer Engineering co-op student at the University of Alberta, class of 2028. Seeking a 4- or 8-month co-op from May 2027 in software, embedded, silicon/ASIC or systems.">
+</picture>
 
-<h1>Suvir Duggal</h1>
+<p align="center">
+  <a href="https://suvir.framer.website"><b>Portfolio</b></a> ·
+  <a href="https://suvir.framer.website/resume"><b>Résumé (PDF)</b></a> ·
+  <a href="https://www.linkedin.com/in/suvirduggal">LinkedIn</a> ·
+  <a href="mailto:suvir1@ualberta.ca">suvir1@ualberta.ca</a> ·
+  <a href="https://devpost.com/suvir1">Devpost</a>
+</p>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=16&duration=3000&pause=800&color=C9D1D9&center=true&vCenter=true&width=640&height=30&lines=Computer+Engineering+Co-op+%40+UAlberta;RTL+%C2%B7+CPU+Architecture+%C2%B7+Embedded+%C2%B7+Distributed+Systems;Ex-TELUS+SWE+intern+%E2%80%94+telemetry+30+min+%E2%86%92+5+s;Seeking+Summer+2027+HW%2FSWE+internships" alt="Typing SVG" />
+### Abstract
 
-<br/>
+Computer Engineering co-op student at the **University of Alberta** (BSc, May 2028). I like work that crosses the hardware/software line: RTL and silicon, firmware on real boards, and the distributed systems that collect their data.
+**Looking for a 4- or 8-month co-op from May 2027** in software, embedded, silicon/ASIC or systems. Based in Edmonton, AB; open to relocation.
 
-<img src="https://komarev.com/ghpvc/?username=siliconbeast&label=PLAYERS+VISITED&color=0D1117&style=flat-square" alt="profile views"/>
-<img src="https://img.shields.io/badge/OPEN_TO-HW%2FSWE_·_SUMMER_2027-0D1117?style=flat-square&labelColor=0D1117&color=39C5CF" alt="open to work"/>
+### Experience
 
-</div>
+- **Software Engineer Intern, TELUS** · Jan – Aug 2026<br>
+  Built a Go gRPC/gNMI streaming telemetry pipeline for an arm64 OpenWrt fleet: **35+ metrics, latency cut from 30+ minutes to 5 seconds**. Added 6,500+ property-based API tests. Won the Students’ Union Award for Outstanding Innovation.
+- **Program Instructor and Teaching Assistant, Faculty of Engineering, UAlberta** · 2025 – now<br>
+  Cut onboarding for 450+ students from 4 hours to 30 seconds with a Python bot.
+- **Undergraduate Research Assistant, UAlberta** · Oct 2024 – Jan 2025<br>
+  Interpretable fuzzy neural network in TensorFlow, 90% accuracy over 3 classes. Dean’s Research Award.
 
-<br/>
+### Lab sheets
 
-## `// character_sheet`
+| Project | What it is | Built with |
+|---|---|---|
+| **Silica** · *in progress* | ASIC for the Jane Street Tapeout contest: a UART/SPI/I2C/CAN protocol engine with an embedded FPGA, so it can learn new protocols after fabrication | Verilog, cocotb, Yosys, LibreLane |
+| [**RISC-V SoC + GPU**](https://suvir.framer.website/projects/risc-v-soc-gpu) · *in progress* | RV32I core with a pipelined Mandelbrot accelerator squeezed into 20 hardware multipliers, plus HDMI video and PWM audio, on a Tang Nano 9K | VHDL, Yosys, FPGA |
+| **InSite** · *NatHacks 2026 winner* | Worker safety vest: 4 spine IMUs plus air-quality, noise and heart-rate sensors on an ESP32-S3, with the spine mirrored live in 3D | C++, FreeRTOS, BLE, FastAPI, Three.js |
+| [**SignalScout**](https://suvir.framer.website/projects/signalscout) · *in progress* | Pocket device that replaces 3 field instruments: two custom PCBs and a 3D-printed enclosure, designed end to end. Autodesk University 2027 hardware recipient | KiCad, Autodesk Fusion, ESP32-S3, Arduino UNO Q, LoRa |
+| [**Wingman**](https://suvir.framer.website/projects/wingman) | Driver assist that keeps its safety alerts alive if the AI crashes: Jetson GPU perception, i.MX RT1170 safety MCU, failsafe within 100 ms | CUDA, C++, Zephyr RTOS |
+| [**RF Telemetry Board**](https://suvir.framer.website/projects/rf-telemetry-board) | EcoCar RF PCB redesigned in KiCad, with STM32 firmware streaming live speed, battery and GPS to the pit | C, STM32, KiCad |
+| [**BioTherma-AI**](https://suvir.framer.website/projects/biotherma-ai) | Edge-AI monitor that spots a bio-digester going wrong from temperature and humidity alone | C++, Python, Arduino UNO Q |
 
-<img align="right" src="chip.svg" width="150" alt="pixel chip"/>
+### Toolbox
 
-```
-╔══════════════════════════════════════════════════════════╗
-║  NAME     Suvir Duggal                                   ║
-║  CLASS    Silicon Mage  (Hardware · Embedded · Software) ║
-║  LEVEL    4  ── Computer Engineering Co-op @ UAlberta    ║
-║  GUILD    ex-TELUS SWE intern  ── gRPC telemetry         ║
-║  QUEST    Summer 2027 HW/SWE internship                  ║
-║  SPAWN    Edmonton, AB  ── open to relocate              ║
-╠══════════════════════════════════════════════════════════╣
-║  XP  [██████████████████████████████████░░░░░░] → 2028   ║
-╚══════════════════════════════════════════════════════════╝
-```
+**Languages** C · C++ · Python · Go · Verilog / SystemVerilog · VHDL · CUDA · SQL<br>
+**Hardware & EDA** KiCad · Vivado · Yosys · cocotb · FPGA · STM32 · ESP32 · oscilloscope · logic analyzer<br>
+**Software** gRPC · Docker · Linux · AWS · GCP · Grafana · CI/CD · Claude Code
 
-<br clear="right"/>
+### Awards
 
-## `// stats`
+NatHacks 2026 winner (InSite) · Autodesk University 2027 hardware recipient (SignalScout) · UASU Outstanding Innovation Award 2026 · Dean’s Research Award · HackEd Beta 1st place 2024
 
-<img align="right" src="scope.svg" width="190" alt="oscilloscope"/>
-
-```
-CPU ARCHITECTURE     ██████████████████░░  RV32I core
-RTL DESIGN           ██████████████████░░  Mandelbrot GPU
-EMBEDDED SYSTEMS     ███████████████████░  STM32 · Jetson
-DISTRIBUTED SYSTEMS  ████████████████░░░░  fleet telemetry
-CI/CD                ███████████████░░░░░  fleet deploys
-AUTOMATED TESTING    █████████████████░░░  6,500+ fuzz tests
-```
-
-<br clear="right"/>
-
-## `// skill_tree`
-
-<img align="right" src="robot.svg" width="130" alt="pixel robot co-pilot"/>
-
-```
-                           ◆ journey.EXE ◆
-                ● unlocked     ──▶ unlock path
-
-├─◆ LANGUAGES
-│   ├─● C ──▶ ● C++ ──▶ ● CUDA
-│   ├─● VHDL ──▶ ● Verilog
-│   ├─● Python ──▶ ● Go ──▶ ● Java
-│   └─● SQL ──▶ ● MATLAB
-│
-├─◆ SOFTWARE
-│   ├─● Git ──▶ ● Docker ──▶ ● gRPC ──▶ ● REST APIs
-│   ├─● InfluxDB ──▶ ● Grafana
-│   ├─● GCP ──▶ ● AWS
-│   ├─● Agile ──▶ ● Jira ──▶ ● Confluence
-│   └─● Claude Code
-│
-└─◆ HARDWARE / EDA
-    ├─● KiCad ──▶ ● LTSpice ──▶ ● Cadence
-    ├─● Vivado ──▶ ● FPGA (Gowin · Xilinx)
-    └─● STM32 ──▶ ● Raspberry Pi ──▶ ● Nvidia Jetson
-```
-
-<br clear="right"/>
-
-## `// quest_log`
-
-| | Quest | What it is | Loot |
-|---|---|---|---|
-| 🟡 | **RISC-V SoC + GPU** | RV32I in VHDL on a Tang Nano 9K, fixed-point Mandelbrot accelerator, HDMI + PWM audio | ASIC via Tiny Tapeout |
-| 🟡 | **RF Telemetry Board** | EcoCar RF PCB in KiCad + STM32 firmware streaming speed, battery, GPS | F1-style pit dashboard |
-| 🟡 | **Wingman** | Driver assist: Jetson TX2 CUDA perception + i.MX RT1170 safety MCU | CUDA Kalman tracker bank |
-| 🟡 | **BioTherma-AI** | Bio-digester monitor on Arduino UNO Q | Hackster contest entry |
-| 🟢 | **TELUS Co-op** | Go gRPC/gNMI telemetry pipeline for an arm64 OpenWrt fleet | latency 30 min → 5 s |
-| 🟢 | **Research Assistant** | Fuzzy neural network in TensorFlow + scikit-learn | research poster |
-| 🟢 | **EyesPi** | Raspberry Pi 5 facial-recognition security system | CV + embedded |
-
-<sub>🟡 in progress · 🟢 complete — <!-- TODO: link each quest name to its repo --></sub>
-
-## `// achievements`
-
-<img align="right" src="trophy.svg" width="110" alt="pixel trophy"/>
-
-```
-[🔬] Dean's Research Award ............. UAlberta research (genuinely awesome learning experience)
-[🎓] Teaching Assistant ................ Faculty of Engineering (juniors love my guidance and funny emails before midterms)
-[🧑‍🏫] Recent W ........................ Students' Union Award for Outstanding Innovation
-[🔒] First Silicon ..................... LOCKED — ASIC pending (its taking all my energy icl lol)
-```
-
-<br clear="right"/>
-
-
-
-## `// multiplayer`
-
-<img align="right" src="devboard.svg" width="140" alt="pixel dev board"/>
-
-<div align="center">
-
-<a href="mailto:suvir1@ualberta.ca"><img src="https://img.shields.io/badge/EMAIL-0D1117?style=flat-square&logo=gmail&logoColor=39C5CF" /></a>
-<a href="https://www.linkedin.com/in/suvirduggal"><img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=flat-square&logo=linkedin&logoColor=39C5CF" /></a>
-<a href="https://suvir.framer.website"><img src="https://img.shields.io/badge/PORTFOLIO-0D1117?style=flat-square&logo=framer&logoColor=39C5CF" /></a>
-
-<sub>`"the journey is the reward" ~yours truly ;)`</sub>
-
-
-</div>
-
-<br clear="right"/>
+<sub>The hand-drawn version of this page, with diagrams and the numbers behind each project: <a href="https://suvir.framer.website">suvir.framer.website</a></sub>
