@@ -1,0 +1,34 @@
+# Suvir Duggal
+
+> Computer Engineering co-op student at the University of Alberta (BSc, graduating May 2028), based in Edmonton, Alberta and open to relocation. Looking for a 4- or 8-month co-op from May 2027 in software, embedded, silicon/ASIC or systems. This site is his portfolio, laid out as a lab notebook ("SiliconBeast Lab Notes").
+
+Contact: suvir1@ualberta.ca · LinkedIn: https://www.linkedin.com/in/suvirduggal · GitHub: https://github.com/SiliconBeast · Devpost: https://devpost.com/suvir1
+
+## Pages
+
+- [Home](https://suvir.framer.website/): summary, experience log, impact numbers, projects, skills index, interests and contact.
+- [Résumé](https://suvir.framer.website/resume): one-page résumé, viewable and downloadable as a PDF.
+
+## Experience
+
+- Software Engineer Intern, TELUS (Jan – Aug 2026): Go gRPC/gNMI streaming telemetry pipeline for an arm64 OpenWrt fleet; telemetry latency for 35+ metrics cut from 30+ minutes to 5 seconds; 6,500+ property-based API tests. Students' Union Award for Outstanding Innovation (2026).
+- Program Instructor and Teaching Assistant, Faculty of Engineering, University of Alberta (2025 – now): cut onboarding for 450+ students from 4 hours to 30 seconds with a Python bot.
+- Undergraduate Research Assistant, University of Alberta (Oct 2024 – Jan 2025): interpretable fuzzy neural network in TensorFlow; Dean's Research Award.
+
+## Project sheets
+
+- [SignalScout](https://suvir.framer.website/projects/signalscout): pocket device that replaces 3 field instruments (Wi-Fi/Bluetooth analyzer, RF signal detector, off-grid safety beacon). Two custom PCBs and a 3D-printed enclosure, designed end to end; not yet fabricated. Autodesk University 2027 hardware recipient.
+- [RISC-V SoC + GPU](https://suvir.framer.website/projects/risc-v-soc-gpu): RV32I core in VHDL with a pipelined fixed-point Mandelbrot accelerator in 20 hardware multipliers, HDMI video and PWM audio, on a Tang Nano 9K FPGA.
+- [Wingman](https://suvir.framer.website/projects/wingman): driver assist with Jetson GPU perception and an i.MX RT1170 safety microcontroller under Zephyr RTOS; failsafe within 100 ms of perception loss.
+- [RF Telemetry Board](https://suvir.framer.website/projects/rf-telemetry-board): UAlberta EcoCar RF telemetry PCB redesigned in KiCad, with STM32 firmware streaming live speed, battery voltage and GPS.
+- [BioTherma-AI](https://suvir.framer.website/projects/biotherma-ai): edge-AI bio-digester monitor on an Arduino UNO Q; GRU anomaly detection from temperature and humidity alone.
+- [SiliconBeast Lab Notes](https://suvir.framer.website/projects/siliconbeast-lab-notes): this portfolio, built in Framer with hand-drawn React and TypeScript components.
+
+## Other work
+
+- InSite (NatHacks 2026 winner): worker safety vest with 4 spine IMUs and air-quality, noise and heart-rate sensors on an ESP32-S3.
+- Silica (in progress): ASIC for the Jane Street Tapeout contest; UART/SPI/I2C/CAN protocol engine with an embedded FPGA.
+
+## Skills
+
+C, C++, Python, Go, Verilog, SystemVerilog, VHDL, CUDA, SQL · KiCad, Vivado, Yosys, cocotb, FPGA, STM32, ESP32 · gRPC, Docker, Linux, AWS, GCP, Grafana, CI/CD
