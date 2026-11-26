@@ -1,8 +1,8 @@
 # Suvir Duggal
 
-> Computer Engineering co-op student at the University of Alberta (BSc, graduating May 2028), based in Edmonton, Alberta and open to relocation. Looking for a 4- or 8-month co-op from May 2027 in software, embedded, silicon/ASIC or systems. This site is his portfolio, laid out as a lab notebook ("SiliconBeast Lab Notes").
+> Computer Engineering co-op student at the University of Alberta (BSc, graduating May 2028), based in Edmonton, Alberta and open to relocation. Looking for a 4- or 8-month co-op from May 2027 in software, embedded, silicon/ASIC or systems. This site is his portfolio, laid out as a lab notebook ("Suvir Duggal · Lab Notes").
 
-Contact: suvir1@ualberta.ca · LinkedIn: https://www.linkedin.com/in/suvirduggal · GitHub: https://github.com/SiliconBeast · Devpost: https://devpost.com/suvir1
+Contact: suvir1@ualberta.ca · LinkedIn: https://www.linkedin.com/in/suvirduggal · GitHub (username SiliconBeast): https://github.com/SiliconBeast · Devpost: https://devpost.com/suvir1
 
 ## Pages
 
@@ -22,7 +22,7 @@ Contact: suvir1@ualberta.ca · LinkedIn: https://www.linkedin.com/in/suvirduggal
 - [Wingman](https://suvir.framer.website/projects/wingman): driver assist with Jetson GPU perception and an i.MX RT1170 safety microcontroller under Zephyr RTOS; failsafe within 100 ms of perception loss.
 - [RF Telemetry Board](https://suvir.framer.website/projects/rf-telemetry-board): UAlberta EcoCar RF telemetry PCB redesigned in KiCad, with STM32 firmware streaming live speed, battery voltage and GPS.
 - [BioTherma-AI](https://suvir.framer.website/projects/biotherma-ai): edge-AI bio-digester monitor on an Arduino UNO Q; GRU anomaly detection from temperature and humidity alone.
-- [SiliconBeast Lab Notes](https://suvir.framer.website/projects/siliconbeast-lab-notes): this portfolio, built in Framer with hand-drawn React and TypeScript components.
+- [Suvir’s Lab Notes](https://suvir.framer.website/projects/siliconbeast-lab-notes): this portfolio, built in Framer with hand-drawn React and TypeScript components.
 
 ## Other work
 
